@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CV file</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    <header>
+        <h1>Dmitriy Emelyanov</h1>
+        <div class="contacts">
+            <a href="mailto:harnblaze@gmail.com">Mail</a>
+            <a href="https://github.com/harnblaze">GitHub</a>
+            <a href="https://vk.com/d_m0n">Vkontakte</a>
+        </div>
+    </header>
+    <section class="summary">
+        <h2 hidden>summary</h2>
+        <img  class="avatar" src="./avatar.jfif" alt="avatar">
+        <p>Until 2019, I worked at the Pulp and Paper Mill as a deputy head of the construction department, in 2019 I decided to change my field of activity. I have always been interested in computers, and the tasks that can be solved with their help. I took interactive HTML and CSS courses at HTMLAcademy, currently I am learning JavaScript on my own. I read “Grock Algorithms”, now I read “Patterns of Object-Oriented Programming”. I constantly continue to study, read, watch videos.</p>
+    </section>
+    <section class="skills">
+        <h2>Skills:</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS, Less</li>
+            <li>Javascript</li>
+            <li>BEM</li>
+            <li>Git</li>
+            <li>Webpack, Gulp, Eslint</li>
+        </ul>
+    </section>
+    <section class="code-examples">
+        <h2>Code example on codewars:</h2>
+        <p>Is the number prime?</p>
+        <pre><code>
+function isPrime(num) {
+    if (num % 1 !== 0) {
+        return false;
+    }
+
+    if (num <= 1) {
+        return false;
+    }
+
+    if (num <= 3) {
+        return true;
+    }
+
+    if (num % 2 === 0) {
+        return false;
+    }
+
+    const divLimit = Math.sqrt(num);
+    for (let div = 3; div <= divLimit; div += 2) {
+        if (num % div === 0) {
+            return false;
+        }
+    }
+
+    return true;
+}
+        </code></pre>
+    </section>
+    <section class="Experience">
+        <h2>Experience:</h2>
+        <p>Only solved kata's on codewars <a href="https://www.codewars.com/users/harn_blaze">https://www.codewars
+                                                                                              .com/users/harn_blaze</a></p>
+    </section>
+    <section class="education">
+        <h2>Education:</h2>
+        <p>Petrozavodsk State University,<br>
+           Faculty of Civil Engineering, Industrial and Civil Engineering</p>
+    </section>
+    <section class="languages">
+        <h2>Knowledge of languages:</h2>
+        <p>Russian - Native<br>
+           English  - A2 Pre-Intermediate </p>
+    </section>
+   </main>
+</body>
+</html>
