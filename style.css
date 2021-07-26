@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to left, white, #ccc, white);
+}
+a {
+  text-decoration: none;
+}
+main {
+  background-color: white;
+  margin: 0 auto;
+  width: 1024px;
+  font-size: 24px;
+  border: 1px solid #eee;
+}
+
+section {
+  margin: 40px;
+}
+
+h1 {
+  text-align: center;
+}
+
+code {
+  font-size: 16px;
+}
+
+.contacts {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contacts a {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px 20px;
+  box-shadow: 0 4px 5px 0 rgba(100, 100, 100, 0.25);
+  color: black;
+}
+
+.contacts a:hover {
+  border: 1px solid #eee;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
+  transition: 0.4s;
+}
+
+.avatar {
+  border-radius: 50%;
+  float: left;
+  margin-right: 40px;
+}
+
+.summary p {
+  margin: 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
